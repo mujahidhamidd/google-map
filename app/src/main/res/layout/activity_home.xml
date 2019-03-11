@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@drawable/common_full_open_on_phone"
+        android:layout_marginTop="200dp"/>
+
+    <TextView
+        android:id="@+id/textViewtitle"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:hint="University Maintenance Service App"
+        android:inputType="text"
+        android:gravity="center_horizontal"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:background="#00000000"
+        android:textSize="16dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentBottom="true">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@color/colorAccent"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/openaddplace"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorAccent"
+                        android:letterSpacing="0.0025"
+                        android:padding="15dp"
+
+                        android:text="Add Place"
+                        android:textAlignment="center"
+                        android:textColor="#000"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="50dp"
+                    android:layout_marginLeft="30dp"
+
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@color/colorPrimary"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/places"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@color/colorPrimary"
+                        android:letterSpacing="0.0025"
+                        android:padding="15dp"
+                        android:text="All Places"
+                        android:textAlignment="center"
+                        android:textColor="#fff"
+                        android:textColorHint="#fff" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

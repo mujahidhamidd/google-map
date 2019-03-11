@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="2dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:contentDescription="country"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:src="@drawable/ic_pin_drop_black_24dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:text=" name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/img"
+        android:paddingBottom="10dp"
+        android:textSize="20sp" />
+
+
+
+</RelativeLayout>

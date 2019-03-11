@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidGoogleMap_COMP307Assignment5-master.iml" filepath="$PROJECT_DIR$/AndroidGoogleMap_COMP307Assignment5-master.iml" />
+      <module fileurl="file://D:\android project\AndroidGoogleMap_COMP307Assignment5-master\YunKuiPan_TorahitoYamashita_COMP307Lab5_Ex1.iml" filepath="D:\android project\AndroidGoogleMap_COMP307Assignment5-master\YunKuiPan_TorahitoYamashita_COMP307Lab5_Ex1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
