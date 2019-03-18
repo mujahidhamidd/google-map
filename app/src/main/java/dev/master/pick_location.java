@@ -31,7 +31,7 @@ public class pick_location extends FragmentActivity implements OnMapReadyCallbac
     private GoogleMap mMap;
     private EditText mSearchText;
     private Button addto;
-    private ImageView mSearch;
+    private Button mSearch;
     private Marker myMarker;
 
     DbHelper mDbHelper;
@@ -51,7 +51,7 @@ public class pick_location extends FragmentActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_pick_location);
         mSearchText = (EditText) findViewById(R.id.input_search);
         addto = (Button) findViewById(R.id.buttonaddto);
-        mSearch = (ImageView) findViewById(R.id.ic_magnify);
+        mSearch = (Button) findViewById(R.id.search);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(R.id.map);
