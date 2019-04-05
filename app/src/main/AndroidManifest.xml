@@ -29,22 +29,46 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
 
-        <activity android:name="dev.master.MainActivity"></activity>
+        <activity android:name="dev.master.locations_list"
+            android:parentActivityName=".HomeActivity"
+            >
+
+
+        </activity>
         <activity
+            android:parentActivityName=".locations_list"
             android:name="dev.master.MapsActivity"
             android:label="@string/title_activity_maps"></activity>
         <activity
             android:name="dev.master.pick_location"
+            android:parentActivityName=".HomeActivity"
             android:label="@string/title_activity_pick_location">
 
         </activity>
-        <activity android:name="dev.master.HomeActivity">
+
+        <activity
+            android:name="dev.master.login"
+            android:label="Login">
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="dev.master.register"
+
+            android:parentActivityName=".login"
+            android:label="Register">
+
+        </activity>
+
+        <activity android:name="dev.master.HomeActivity">
+
+
 
         </activity>
     </application>

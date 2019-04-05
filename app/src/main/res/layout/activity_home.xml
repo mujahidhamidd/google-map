@@ -68,7 +68,7 @@
 
                         android:text="Add Place"
                         android:textAlignment="center"
-                        android:textColor="#000"
+                        android:textColor="#fff"
                         android:textSize="16dp" />
                 </LinearLayout>
 

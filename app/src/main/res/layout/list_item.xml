@@ -25,4 +25,18 @@
 
 
 
+
+    <ImageView
+        android:id="@+id/u"
+        android:layout_width="70dp"
+
+        android:layout_height="70dp"
+        android:contentDescription="country"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+
+
+        android:src="@drawable/ic_pin_drop_black_24dp" />
+
+
 </RelativeLayout>

@@ -48,6 +48,10 @@ public class pick_location extends FragmentActivity implements OnMapReadyCallbac
         db = mDbHelper.getWritableDatabase();
 
 
+
+
+
+
         setContentView(R.layout.activity_pick_location);
         mSearchText = (EditText) findViewById(R.id.input_search);
         addto = (Button) findViewById(R.id.buttonaddto);
