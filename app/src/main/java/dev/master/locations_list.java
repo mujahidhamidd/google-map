@@ -98,6 +98,8 @@ public class locations_list extends AppCompatActivity {
 
     }
 
+
+
     public boolean delete(String id)
     {
         return database.delete("places", "_id" + "=" + id, null) > 0;
